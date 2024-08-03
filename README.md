@@ -14,9 +14,9 @@ Realtime speech summary using Google Gemini, OpenAI Whisper, and Streamlit.
 Install [Streamlit](https://streamlit.io/)
 
 ## Usage
-- Enter your API key in `summary.py`
-- Enter the path of whisper.cpp
-
+- Enter your API key in [`summary.py`](summary.py)
+- Enter the path of whisper.cpp in [`speech_to_text.py`](speech_to_text.py)
+- run [`main.py`](main.py) with Streamlit
 ```bash
 streamlit run main.py
 ```
